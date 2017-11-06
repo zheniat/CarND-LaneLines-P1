@@ -42,11 +42,11 @@ Pipeline sample:
 
 ### 2. Shortcomings with the current pipeline
 
-The pipeline assumes a fixed region of interest. This works only on the flat road. If the car were to drive up a steep hill or approach the top of the hill followed by a ravine, the region will either not extend far enough to probe for the lane direction or go over the horizon
+The pipeline assumes a fixed region of interest. This works only on flat roads. If the car were to drive up a steep hill or approach the top of the hill followed by a ravine, the region will either not extend far enough to probe for the lane direction or go over the horizon
 
 The pipeline works with straight lines only. It fails when the car drives along a curved road. 
 
-If any of the lines are not marked nothing will be marked on the screen
+If any of the lanes are not marked, nothing will be displayed on the screen
 
 ### 3. Possible improvements to the pipeline
 Dynamically detect the region of interest by looking for a horizon/rate of lane convergence
