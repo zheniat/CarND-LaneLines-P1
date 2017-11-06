@@ -11,7 +11,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[original]: ./test_images_output/sample_pipeline/1_original.jpg "Original"
+[gray]: ./test_images_output/sample_pipeline/2_gray.jpg "Gray"
+[blur]: ./test_images_output/sample_pipeline/3_blur.jpg "Blur"
+[edges]: ./test_images_output/sample_pipeline/4_edges.jpg "Canny Edges"
+[region]: ./test_images_output/sample_pipeline/5_region.jpg "Region of interest"
+[line]: ./test_images_output/sample_pipeline/6_line.jpg "Hough Line"
+[final]: ./test_images_output/sample_pipeline/7_final.jpg "Final"
+
 
 ---
 
@@ -37,7 +44,13 @@ See combine_lane_lines() and line_from_slope_intercept() functions for more deta
 
 Pipeline sample:
 
-![alt text][image1]
+![alt text][original]
+![alt text][gray]
+![alt text][blur]
+![alt text][edges]
+![alt text][region]
+![alt text][line]
+![alt text][final]
 
 
 ### 2. Shortcomings with the current pipeline
